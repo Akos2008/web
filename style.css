@@ -11,8 +11,7 @@ nav a:hover {
     font-style: italic;
 }
 
-style {
-    text-decoration: none;
+li {
+    text-decoration: solid;
     color: blueviolet;
-    background-color: crimson;
 }
