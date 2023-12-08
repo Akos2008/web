@@ -5,7 +5,7 @@ nav a {
 }
 
 nav a:hover {
-    color: aqua;
+    color: cyan;
     background-color: black;
     font-weight: bold;
     font-style: italic;
@@ -13,5 +13,5 @@ nav a:hover {
 
 li {
     text-decoration: solid;
-    color: blueviolet;
+    color: cyan;
 }
