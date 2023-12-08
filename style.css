@@ -15,9 +15,3 @@ li {
     text-decoration: solid;
     color: blueviolet;
 }
-
-body {
-    background-image:url(háttér.jpg);
-    background-size: cover;
-    background-position: center;
-}
