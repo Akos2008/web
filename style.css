@@ -15,11 +15,3 @@ li {
     text-decoration: solid;
     color: blueviolet;
 }
-
-.banner {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(háttér.jpg);
-    background-size: cover;
-    background-position: center;
-}
