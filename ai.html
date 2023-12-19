@@ -2,39 +2,44 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <title>Cipők Webáruháza</title>
+    <title>Kattintós Játék</title>
     <link rel="stylesheet" href="ai.css">
 </head>
 <body>
-    <header>
-        <h1>Cipők Webáruháza</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#női">Női</a></li>
-            <li><a href="#férfi">Férfi</a></li>
-            <li><a href="#gyerek">Gyerek</a></li>
-            <li><a href="#kiegészítők">Kiegészítők</a></li>
-        </ul>
-    </nav>
-    <section id="női">
-        <h2>Női Cipők</h2>
-        <p>Itt találhatók a női cipők...</p>
-    </section>
-    <section id="férfi">
-        <h2>Férfi Cipők</h2>
-        <p>Itt találhatók a férfi cipők...</p>
-    </section>
-    <section id="gyerek">
-        <h2>Gyerek Cipők</h2>
-        <p>Itt találhatók a gyerek cipők...</p>
-    </section>
-    <section id="kiegészítők">
-        <h2>Kiegészítők</h2>
-        <p>Itt találhatók a kiegészítők...</p>
-    </section>
-    <footer>
-        <p>&copy; 2023 Cipők Webáruháza</p>
-    </footer>
+    <h1>Kattints a Gombra!</h1>
+    <p id="timer">Idő: <span id="time-left">10</span> mp</p>
+    <div id="game-container">
+        <button id="click-button" onclick="startGame()">Kezdés</button>
+    </div>
+
+    <script>
+        let timeLeft = 10; // Kezdeti idő 10 másodperc
+        let gameStarted = false;
+
+        function startGame() {
+            if (!gameStarted) {
+                gameStarted = true;
+                document.getElementById('click-button').textContent = 'Kattints!';
+                countdown = setInterval(updateTime, 1000);
+                setTimeout(endGame, timeLeft * 1000);
+            }
+        }
+
+        function updateTime() {
+            if (timeLeft > 0) {
+                timeLeft--;
+                document.getElementById('time-left').textContent = timeLeft;
+            }
+        }
+
+        function endGame() {
+            clearInterval(countdown);
+            gameStarted = false;
+            alert('Idő lejárt! Kattintottál: ' + (10 - timeLeft) + ' alkalommal.');
+            document.getElementById('click-button').textContent = 'Újra!';
+            timeLeft = 10;
+            document.getElementById('time-left').textContent = timeLeft;
+        }
+    </script>
 </body>
 </html>
