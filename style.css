@@ -19,3 +19,8 @@ li {
 footer a {
     text-decoration: none;
 }
+
+.keret {
+    width: 50px;
+    float: left;
+}
