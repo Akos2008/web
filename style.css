@@ -24,3 +24,34 @@ footer a {
     width: 50px;
     float: left;
 }
+
+#tel{
+    border: 2px solid cyan;
+    transition: 3s;
+    float: left;
+}
+#tavasz{
+    border: 2px solid cyan;
+    transition: 3s;
+    float: left;
+}
+#nyar{
+    border: 2px solid cyan;
+    transition: 3s;
+    float: left;
+}
+#ősz{
+    border: 2px solid cyan;
+    transition: 3s;
+    float: left;
+}
+#tel:hover{
+    scale: 1.1;
+}
+#tavasz:hover{
+    scale: 1.1;
+}#nyar:hover{
+    scale: 1.1;
+}#osz:hover{
+    scale: 1.1;
+}
