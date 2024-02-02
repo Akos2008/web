@@ -25,33 +25,37 @@ footer a {
     float: left;
 }
 
-#tel{
+#tél {
     border: 2px solid cyan;
     transition: 3s;
     float: left;
 }
-#tavasz{
+#tavasz {
     border: 2px solid cyan;
     transition: 3s;
     float: left;
 }
-#nyar{
+#nyár {
     border: 2px solid cyan;
     transition: 3s;
     float: left;
 }
-#ősz{
+#ősz {
     border: 2px solid cyan;
     transition: 3s;
     float: left;
 }
-#tel:hover{
+#tél:hover {
     scale: 1.1;
 }
-#tavasz:hover{
+
+#tavasz:hover {
     scale: 1.1;
-}#nyar:hover{
-    scale: 1.1;
-}#osz:hover{
+}
+
+#nyár:hover {
+    scale: 1.1;}
+
+#ősz:hover {
     scale: 1.1;
 }
