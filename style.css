@@ -53,16 +53,16 @@ button {
     transition: 3s;
 }
 #tél:hover {
-    scale: 1;
+    scale: 1.1;
 }
 
 #tavasz:hover {
-    scale: 1;
+    scale: 1.1;
 }
 
 #nyár:hover {
-    scale: 1;}
+    scale: 1.1;}
 
 #ősz:hover {
-    scale: 1;
+    scale: 1.1;
 }
