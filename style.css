@@ -1,3 +1,7 @@
+body {
+    background-color: #262223;
+}
+
 nav a {
     text-decoration: none;
     color: black;
@@ -42,19 +46,19 @@ button {
 
 #tél {
     transition: 3s;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 #tavasz {
     transition: 3s;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 #nyár {
     transition: 3s;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 #ősz {
     transition: 3s;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 #tél:hover {
     scale: 1.1;
