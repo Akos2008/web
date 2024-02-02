@@ -42,15 +42,19 @@ button {
 
 #tél {
     transition: 3s;
+    padding-left: 50px;
 }
 #tavasz {
     transition: 3s;
+    padding-left: 50px;
 }
 #nyár {
     transition: 3s;
+    padding-left: 50px;
 }
 #ősz {
     transition: 3s;
+    padding-left: 50px;
 }
 #tél:hover {
     scale: 1.1;
