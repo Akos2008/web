@@ -46,39 +46,35 @@ button {
 }
 
 #tél {
-    border: 2px solid cyan;
-    transition: 3s;
-    float: left;
-}
-#tavasz {
-    border: 2px solid cyan;
-    transition: 3s;
-    float: left;
-    padding: 25px;
-}
-#nyár {
-    border: 2px solid cyan;
-    transition: 3s;
-    float: left;
-    padding: 50px;
-}
-#ősz {
-    border: 2px solid cyan;
     transition: 3s;
     float: left;
     padding: 75px;
 }
+#tavasz {
+    transition: 3s;
+    float: left;
+}
+#nyár {
+    transition: 3s;
+    float: left;
+    padding: 25px;
+}
+#ősz {
+    transition: 3s;
+    float: left;
+    padding: 50px;
+}
 #tél:hover {
-    scale: 1.1;
+    scale: 1;
 }
 
 #tavasz:hover {
-    scale: 1.1;
+    scale: 1;
 }
 
 #nyár:hover {
-    scale: 1.1;}
+    scale: 1;}
 
 #ősz:hover {
-    scale: 1.1;
+    scale: 1;
 }
