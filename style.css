@@ -25,6 +25,26 @@ footer a {
     float: left;
 }
 
+button {
+    font-family: 'courier new';
+    font-weight: bold;
+    color: #000000 !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #262223;
+    box-shadow: 3px 3px 3px;
+    padding: 14px 29px;
+    border-radius: 14px;
+    border: 2px groove darkred;
+    background: black;
+    background: linear-gradient(to top, black, cyan);
+    transition: .5s;
+  }
+  button:hover {
+    color: #14396A !important;
+    background: cyan;
+    background: linear-gradient(to top, cyan, black);
+}
+
 #tél {
     border: 2px solid cyan;
     transition: 3s;
@@ -34,16 +54,19 @@ footer a {
     border: 2px solid cyan;
     transition: 3s;
     float: left;
+    padding: 25px;
 }
 #nyár {
     border: 2px solid cyan;
     transition: 3s;
     float: left;
+    padding: 50px;
 }
 #ősz {
     border: 2px solid cyan;
     transition: 3s;
     float: left;
+    padding: 75px;
 }
 #tél:hover {
     scale: 1.1;
