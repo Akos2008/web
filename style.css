@@ -36,7 +36,7 @@ button {
     border-radius: 14px;
     border: 2px groove darkred;
     background: black;
-    background: linear-gradient(to top, black, cyan);
+    background: linear-gradient(to top,cyan);
     transition: .5s;
 }
 
