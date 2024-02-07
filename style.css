@@ -44,25 +44,25 @@ button {
     transition: 3s;
     margin-right: 50px;
     width: 300px;
-    margin: 20px;
+    margin: 10px;
 }
 #tavasz {
     transition: 3s;
     margin-right: 50px;
     width: 300px;
-    margin: 20px;
+    margin: 10px;
 }
 #nyár {
     transition: 3s;
     margin-right: 50px;
     width: 300px;
-    margin: 20px;
+    margin: 10px;
 }
 #ősz {
     transition: 3s;
     margin-right: 50px;
     width: 300px;
-    margin: 20px;
+    margin: 10px;
 }
 #tél:hover {
     scale: 1.1;
