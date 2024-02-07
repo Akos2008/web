@@ -46,6 +46,7 @@ button {
     width: 300px;
     margin: 10px;
     border: solid black 3px;
+    border-radius: 3px;
 }
 #tavasz {
     transition: 3s;
@@ -53,6 +54,7 @@ button {
     width: 300px;
     margin: 10px;
     border: solid black 3px;
+    border-radius: 3px;
 }
 #nyár {
     transition: 3s;
@@ -60,6 +62,7 @@ button {
     width: 300px;
     margin: 10px;
     border: solid black 3px;
+    border-radius: 3px;
 }
 #ősz {
     transition: 3s;
@@ -67,6 +70,7 @@ button {
     width: 300px;
     margin: 10px;
     border: solid black 3px;
+    border-radius: 3px;
 }
 #tél:hover {
     scale: 1.1;
