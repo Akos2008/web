@@ -26,7 +26,7 @@ footer a {
 }
 
 button {
-    font-family: 'courier new';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #000000 !important;
     font-size: 14px;
@@ -43,18 +43,22 @@ button {
 #tél {
     transition: 3s;
     margin-right: 50px;
+    width: 65px;
 }
 #tavasz {
     transition: 3s;
     margin-right: 50px;
+    width: 65px;
 }
 #nyár {
     transition: 3s;
     margin-right: 50px;
+    width: 65px;
 }
 #ősz {
     transition: 3s;
     margin-right: 50px;
+    width: 65px;
 }
 #tél:hover {
     scale: 1.1;
