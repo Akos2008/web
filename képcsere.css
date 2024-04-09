@@ -1,4 +1,23 @@
-
+#ikép-1{
+    width: 800px;
+    transition: 0.3s;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border: solid 3px black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#kép-2{
+    width: 800px;
+    transition: 0.3s;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border: solid 3px black;
+    border-radius: 8px;
+    cursor: pointer;
+}
 kép-1:hover{
     cursor: pointer;
 }
