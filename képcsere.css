@@ -1,0 +1,13 @@
+
+kép-1:hover{
+    cursor: pointer;
+}
+kép-1:active{
+    transform: scale(0.8);
+}
+kép-2:hover{
+    cursor: pointer;
+}
+kép-2:active{
+    transform: scale(0.8);
+}
