@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KÉPLINK</title>
+    <title>KPÉCSERE</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -33,27 +33,23 @@
     <button><a href="képcsere.html">KÉPCSERE</a></button>
     <button><a href="étterem.html">Cherry Blossom Restaurant</a></button>
 </nav>
-
-<body style="background-color: gray">
-    <h1>Kép + link feladat</h1>
-<a href="https://petchef.hu/gazdiknak/amerikai-staffordshire-terrier/">
-    <img src="img/stafford.jpg" alt="kedvenc kutyafajtám a stafford" title="stafford" width="400">
-</a>
-
-<br>
-
-<footer>
-    <h3 style="text-align: left;">Elérhetőségek:</h3>
-    <p style="text-align: left;">Eamil:kurcsika@kkszki.hu</p>
-    <p style="text-align: left;">Tel.:+36 30 223 4445</p>
-    <h3 style="text-align: center;">Közösségi oldalak:</h3>
-    <p style="text-align: center;"><a href="https://www.instagram.com/pocok_12345/ "target="_blank">Instagram</a></p>
-    <p style="text-align: center;"><a href="https://www.facebook.com/profile.php?id=61550509033311 "target="_blank">Facebook</a></p>
-    <p style="text-align: center;"><a href="https://www.twitch.tv/pocok_12345 "target="_blank">Twitch</a></p>
-    <p style="text-align: center;"><a href="https://www.youtube.com/channel/UCMkM67X-A0Sb0Fe4F0YVyFw "target="_blank">Youtube</a></p>
-    <p style="text-align: center;"><a href="https://discord.gg/6ngSPA6K "target="_blank">Discord</a></p>
-    <h4 style="text-align: right;">Copyright© Kurcsik Ákos</h4>
-</footer>
-
+<body>
+    <h1 style="text-align: center;">Kattints a képcseréért</h1>
+    <br>
+    <img id="kép 1" src="monster 1.png" onclick="changeImage(1, 2)" />
+    <img id="kép 2" src="monster 2.png" onclick="changeImage(2, 1)" style="display:none;" />
+    <script>
+        function changeImage(id1, id2) {
+          var kép1 = document.getElementById("kép" + id1);
+          var kép2 = document.getElementById("kép" + id2);
+          if (kép1.style.display == "none") {
+            kép1.style.display = "block";
+            kép2.style.display = "none";
+          } else {
+            kép1.style.display = "none";
+            kép2.style.display = "block";
+          }
+        }
+      </script>
 </body>
 </html>
